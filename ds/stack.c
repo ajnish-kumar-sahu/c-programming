@@ -2,7 +2,6 @@
 #include<stdlib.h>
 
 #define MAX 10
-
 struct stack {
     int ST[MAX];
     int top;
@@ -27,7 +26,7 @@ void printMenu() {
     printf("\n [3] Display Stack");
     printf("\n [4] Search Element");
     printf("\n [5] Exit");
-    printf("\n---------------------------------\n");
+    printf("\n-----------------------------------\n");
 }
 
 int main() {
@@ -113,8 +112,3 @@ void search(Stack *p) {
     }
     printf("Element not found!\n");
 }
-
-
-
-
-
